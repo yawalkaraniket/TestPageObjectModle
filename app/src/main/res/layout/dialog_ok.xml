@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp">
+
+    <TextView
+        android:id="@+id/custom_dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/darkGreen"
+        android:background="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/custom_dialog_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_dialog_header"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:text="@string/successful"
+        android:textSize="17sp"
+        android:background="@color/white"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/custom_dialog_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/custom_dialog_text">
+
+        <Button
+            android:id="@+id/custom_dialog_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/darkGreen"
+            android:text="@string/ok_button_text"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

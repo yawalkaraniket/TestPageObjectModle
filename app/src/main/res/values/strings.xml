@@ -4,4 +4,6 @@
     <string name="sign_up_butttton">Sign-Up</string>
     <string name="submit">Submit</string>
     <string name="reset_password">Reset Password</string>
+    <string name="successful">successful!</string>
+    <string name="ok_button_text">OK</string>
 </resources>
